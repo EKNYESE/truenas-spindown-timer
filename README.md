@@ -182,6 +182,8 @@ boot.
 
 _Note: Be sure to select `Command` as `Type`_
 
+_Note: option `-i` without option `-m` in this example means: [ignoring of disk](https://github.com/ngandrass/truenas-spindown-timer/issues/21) `ada6`_
+
 _Note: With FreeNAS-11.3 a `Timeout` was introduced. However, the spindown
 script is never terminated by FreeNAS, regardless of the configured value.
 Therefore, keep `Timeout` at the default value of 10 seconds for now._
